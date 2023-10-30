@@ -20,7 +20,7 @@ public class ViewPackage extends JFrame implements ActionListener {
         setTitle("View Package");
         setExtendedState(MAXIMIZED_BOTH);
         setLayout(null);
-        getContentPane().setBackground(new Color(222, 245, 229));
+        getContentPane().setBackground(new Color(39, 55, 77));
 
         JPanel p1 = getJPanel(package1);
         JPanel p2 = getJPanel(package2);
@@ -44,7 +44,7 @@ public class ViewPackage extends JFrame implements ActionListener {
         JPanel p = new JPanel();
         p.setLayout(null);
         p.setBounds(0, 0, 1600, 1000);
-        p.setBackground(new Color(222, 245, 229));
+        p.setBackground(new Color(39, 55, 77));
         add(p);
 
         JLabel titleLbl, packNameLbl, durationLbl, destinationLbl, activitiesLbl, mealLbl, drinksLbl, flightLbl, priceLbl;
@@ -53,47 +53,56 @@ public class ViewPackage extends JFrame implements ActionListener {
         titleLbl = new JLabel("<HTML><u>BOOK PACKAGE</u></HTML>");
         titleLbl.setBounds(25, 25, 500, 75);
         titleLbl.setFont(font);
-        titleLbl.setForeground(new Color(255, 243, 35));
+        titleLbl.setForeground(Color.white);
         p.add(titleLbl);
 
         packNameLbl = new JLabel(array[0]);
         packNameLbl.setBounds(25, 100, 300, 30);
         packNameLbl.setFont(font);
+        packNameLbl.setForeground(Color.white);
+
         p.add(packNameLbl);
 
         durationLbl = new JLabel(array[1]);
         durationLbl.setBounds(30, 200, 500, 50);
         durationLbl.setFont(font);
+        durationLbl.setForeground(Color.white);
         p.add(durationLbl);
 
         destinationLbl = new JLabel(array[2]);
         destinationLbl.setBounds(30, 250, 500, 50);
         destinationLbl.setFont(font);
+        destinationLbl.setForeground(Color.white);
         p.add(destinationLbl);
 
         activitiesLbl = new JLabel(array[3]);
         activitiesLbl.setBounds(30, 300, 500, 50);
         activitiesLbl.setFont(font);
+        activitiesLbl.setForeground(Color.white);
         p.add(activitiesLbl);
 
         mealLbl = new JLabel(array[4]);
         mealLbl.setBounds(30, 350, 500, 50);
         mealLbl.setFont(font);
+        mealLbl.setForeground(Color.white);
         p.add(mealLbl);
 
         drinksLbl = new JLabel(array[5]);
         drinksLbl.setBounds(30, 400, 500, 50);
         drinksLbl.setFont(font);
+        drinksLbl.setForeground(Color.white);
         p.add(drinksLbl);
 
         flightLbl = new JLabel(array[6]);
         flightLbl.setBounds(35, 450, 500, 50);
         flightLbl.setFont(font);
+        flightLbl.setForeground(Color.white);
         p.add(flightLbl);
 
         priceLbl = new JLabel(array[7]);
         priceLbl.setBounds(40, 500, 500, 50);
         priceLbl.setFont(font);
+        priceLbl.setForeground(Color.white);
         p.add(priceLbl);
 
 
